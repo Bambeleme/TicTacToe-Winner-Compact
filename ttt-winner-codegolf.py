@@ -1,5 +1,6 @@
 #NICE!
 #https://www.reddit.com/r/learnpython/comments/g8rvag/do_programmers_save_chunks_of_code_for_repeated/
+#hier sollte etwas mehr kommentiert werden
 def iswinner(b, p):
     if 3*p in [b[x]+b[y]+b[z] for x,y,z in [(0,1,2),(3,4,5),(6,7,8),(0,3,6),(1,4,7),(2,5,8),(0,4,8),(2,4,6)]]: return True
 
